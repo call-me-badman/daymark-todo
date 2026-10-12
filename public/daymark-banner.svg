@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Daymark</title>
+  <desc id="description">A calm workspace for moving one task forward at a time.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#143f37" />
+      <stop offset="1" stop-color="#285b49" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#d6e3d7" stroke-opacity=".055" />
+    </pattern>
+    <filter id="shadow" x="-.2" y="-.2" width="1.4" height="1.5">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#082a22" flood-opacity=".28" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="22" fill="url(#bg)" />
+  <rect width="1200" height="360" rx="22" fill="url(#grid)" />
+  <circle cx="1004" cy="55" r="92" fill="#dce88d" fill-opacity=".055" />
+  <circle cx="1090" cy="318" r="148" fill="#e28e71" fill-opacity=".06" />
+
+  <g transform="translate(72 62)">
+    <rect width="38" height="38" rx="11" fill="#dce88d" />
+    <text x="19" y="28" text-anchor="middle" fill="#17483d" font-family="Georgia,serif" font-size="29" font-style="italic" font-weight="700">d</text>
+    <text x="52" y="27" fill="#f6f7ee" font-family="Arial,sans-serif" font-size="21" font-weight="700">daymark</text>
+  </g>
+
+  <g transform="translate(76 149)">
+    <text fill="#adc9b4" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2.4">A CLEARER KIND OF TO-DO</text>
+    <text y="57" fill="#fbfcf5" font-family="Georgia,serif" font-size="47">Make space for</text>
+    <text y="111" fill="#dce88d" font-family="Georgia,serif" font-size="47" font-style="italic">what matters.</text>
+    <text y="148" fill="#c8d8cb" font-family="Arial,sans-serif" font-size="14">A little more focus, one day at a time.</text>
+  </g>
+
+  <g filter="url(#shadow)" transform="translate(758 56)">
+    <rect width="350" height="250" rx="17" fill="#fbfcf7" />
+    <path d="M0 17A17 17 0 0 1 17 0h316a17 17 0 0 1 17 17v35H0Z" fill="#edf1e9" />
+    <circle cx="23" cy="26" r="4" fill="#df896e" />
+    <circle cx="39" cy="26" r="4" fill="#d5df84" />
+    <circle cx="55" cy="26" r="4" fill="#76a18c" />
+    <text x="27" y="88" fill="#203e34" font-family="Georgia,serif" font-size="24">Today, with intention</text>
+    <text x="28" y="111" fill="#87978c" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.4">A SHORT LIST IS A KINDNESS</text>
+    <path d="M27 132h296" stroke="#e4e9e1" />
+
+    <g transform="translate(28 151)" font-family="Arial,sans-serif">
+      <rect width="17" height="17" rx="5" fill="#4f8069" />
+      <path d="m4 8 4 4 7-8" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24" stroke-dashoffset="24">
+        <animate attributeName="stroke-dashoffset" from="24" to="0" dur=".6s" begin=".5s" fill="freeze" />
+      </path>
+      <text x="29" y="14" fill="#94a098" font-size="13" text-decoration="line-through">Clear the small things</text>
+    </g>
+    <g transform="translate(28 187)" font-family="Arial,sans-serif">
+      <rect width="17" height="17" rx="5" fill="none" stroke="#9bad9f" stroke-width="1.5" />
+      <text x="29" y="14" fill="#385348" font-size="13">Make room for deep work</text>
+      <circle cx="299" cy="9" r="3" fill="#df896e">
+        <animate attributeName="opacity" values=".35;1;.35" dur="2.6s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <g transform="translate(28 223)" font-family="Arial,sans-serif">
+      <rect width="17" height="17" rx="5" fill="none" stroke="#9bad9f" stroke-width="1.5" />
+      <text x="29" y="14" fill="#385348" font-size="13">Take a proper pause</text>
+    </g>
+  </g>
+
+  <g fill="#dce88d">
+    <path d="m708 94 4 9 10 1-7 7 2 10-9-5-9 5 2-10-7-7 10-1Z" opacity=".9">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="3.8s" repeatCount="indefinite" />
+    </path>
+    <circle cx="1127" cy="108" r="3" opacity=".7">
+      <animate attributeName="r" values="2;4;2" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="718" cy="278" r="2.5" opacity=".5">
+      <animate attributeName="opacity" values=".25;.9;.25" dur="3s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
